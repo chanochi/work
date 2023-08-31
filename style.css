@@ -1,0 +1,41 @@
+body {
+    font-family: FC-Subject-Rounded-Regular;
+    font-size: 20px;
+    background-color: #efe5ee;
+}
+
+@font-face {
+    font-family: FC-Subject-Rounded-Regular;
+    src: url('./asset/font/FC-Subject-Rounded-Regular.otf');
+}
+
+fieldset, legend {
+    all: revert;
+    border-radius: 5px;
+}
+
+.bodyproposition {
+    display: flex;
+    justify-content: center;
+}
+
+.proposition {
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.selected {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 836px) {
+    .proposition {
+        font-size: 2rem;
+    }
+
+    .selected {
+        font-size: 1rem;
+    }
+}
